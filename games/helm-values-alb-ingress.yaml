@@ -1,0 +1,9 @@
+replicaCount: 3
+image:
+  repository: 602401143452.dkr.ecr.us-west-2.amazonaws.com/amazon/aws-load-balancer-controller
+  tag: v2.4.3
+  pullPolicy: IfNotPresent
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: "aws-load-balancer-controller"
+clusterName: awsdevsampleeks22-4d45
